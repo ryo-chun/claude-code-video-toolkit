@@ -127,11 +127,24 @@ Claude Codeはプロの動画編集者として振る舞い、以下のルール
 ```
 claude-code-video-toolkit/
 ├── scripts/        # ナレーション・テロップ原稿
+├── slides/         # スライド自動生成ツール（build.js + specs/）
 ├── assets/         # BGM・フォント・素材リスト
 ├── storyboards/    # ストーリーボード（Markdown）
 ├── prompts/        # 再利用プロンプト集
 └── exports/        # 完成動画メモ・投稿記録
 ```
+
+### スライド生成
+
+全画面テキストのスライドは `slides/` のツールで生成する。詳細は `slides/README.md`。
+
+```bash
+node slides/build.js day01           # 1080x1920のPNGを出力
+node slides/build.js day01 --guide   # TikTok UIとの干渉チェック
+```
+
+**Claudeはスライドを作ったら必ず `Read` でPNGを開いて目視確認すること。**
+文字のはみ出し・色の潰れ・セーフゾーン侵食はログに出ないことがある。
 
 ### 作業フロー
 

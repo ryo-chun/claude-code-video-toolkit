@@ -1,0 +1,13 @@
+node_modules/
+package-lock.json
+
+# APIキー（絶対にコミットしない）
+.env
+.env.*
+
+# 生成物（specから再生成できるため追跡しない）
+slides/out/
+
+# OS
+Thumbs.db
+.DS_Store

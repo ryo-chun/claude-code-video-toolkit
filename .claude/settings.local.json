@@ -6,7 +6,18 @@
       "Bash(gh --version)",
       "Bash(gh auth *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(gh repo *)",
+      "Bash(git push *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "WebFetch(domain:www.tiktok.com)",
+      "WebSearch",
+      "Bash(npm --version)",
+      "Bash(npx playwright *)",
+      "Bash(node slides/build.js day01)",
+      "Bash(node slides/build.js day01 --guide)",
+      "Bash(git commit -q -m ' *)"
     ]
   }
 }

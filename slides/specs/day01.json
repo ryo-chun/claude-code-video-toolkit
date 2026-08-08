@@ -1,0 +1,68 @@
+{
+  "id": "day01",
+  "title": "ChatGPT時短術・役割付与",
+  "date": "2026-08-10",
+  "slides": [
+    {
+      "sec": "0-4",
+      "bg": "black",
+      "lines": [
+        { "t": "副業やりたいのに" },
+        { "t": "時間がない人" }
+      ]
+    },
+    {
+      "sec": "4-8",
+      "bg": "black",
+      "lines": [
+        { "t": "これ知らないと", "size": "small" },
+        { "t": "一生このまま", "size": "large", "accent": "red", "gap": 24 }
+      ]
+    },
+    {
+      "sec": "8-12",
+      "bg": "white",
+      "lines": [
+        { "t": "原因は", "size": "small" },
+        { "t": "ChatGPTの", "gap": 20 },
+        { "t": "使い方", "size": "large", "accent": "#c0392b" }
+      ]
+    },
+    {
+      "sec": "12-17",
+      "bg": "black",
+      "lines": [
+        { "t": "クライアントへの提案文", "size": "small" },
+        { "t": "1時間", "size": "huge", "accent": "red", "gap": 30 },
+        { "t": "↓", "size": "normal", "accent": "dim" },
+        { "t": "15分", "size": "huge", "accent": "green" }
+      ],
+      "note": "背景に画面録画を30%で敷く"
+    },
+    {
+      "sec": "17-21",
+      "bg": "black",
+      "lines": [
+        { "t": "やったことは", "size": "small" },
+        { "t": "ひとつだけ", "size": "large", "gap": 24 }
+      ]
+    },
+    {
+      "sec": "21-26",
+      "bg": "white",
+      "lines": [
+        { "t": "最初にこう書く", "size": "small" },
+        { "t": "あなたはプロの\nコピーライターです", "size": "normal", "box": true, "gap": 30 }
+      ]
+    },
+    {
+      "sec": "26-30",
+      "bg": "black",
+      "lines": [
+        { "t": "他のAI術は", "size": "small" },
+        { "t": "プロフィールに", "size": "large", "gap": 24 },
+        { "t": "↓", "size": "large", "accent": "yellow", "gap": 10 }
+      ]
+    }
+  ]
+}
