@@ -146,6 +146,18 @@ node slides/build.js day01 --guide   # TikTok UIとの干渉チェック
 **Claudeはスライドを作ったら必ず `Read` でPNGを開いて目視確認すること。**
 文字のはみ出し・色の潰れ・セーフゾーン侵食はログに出ないことがある。
 
+### 動画の書き出し
+
+CapCutを使わず ffmpeg で完成させる。詳細は `video/README.md`。
+
+```bash
+node video/build.js day01                                  # 無音プレビュー
+node video/build.js day01 --voice rec.m4a --bgm lofi.mp3 --fit
+```
+
+**Claudeは書き出したら必ず ffprobe で尺・解像度を確認し、
+フレームを抜いて `Read` で目視確認すること。**
+
 ### 作業フロー
 
 1. `scripts/` にナレーション原稿を保存（`YYYY-MM-DD_テーマ.md`）

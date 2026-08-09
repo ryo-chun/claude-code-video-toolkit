@@ -17,7 +17,11 @@
       "Bash(npx playwright *)",
       "Bash(node slides/build.js day01)",
       "Bash(node slides/build.js day01 --guide)",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(ffmpeg -version)",
+      "Bash(ffprobe -version)",
+      "Bash(node video/build.js day01)",
+      "Bash(printf '\\\\n# 生成物\\\\nvideo/out/\\\\n')"
     ]
   }
 }
