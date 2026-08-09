@@ -26,7 +26,8 @@
       "Bash(git mv *)",
       "Bash(python \"C:\\\\Users\\\\popor\\\\.claude\\\\skills\\\\fal-gpt-image-2\\\\scripts\\\\generate.py\" --prompt \"A minimal flat vector app icon: a bold simple hourglass shape in the exact center, where the falling sand is stylized as a single large liquid droplet in mint green. Solid near-black background #0a0a0a. Only three colors: near-black background, white hourglass frame, mint green #3ddc9a droplet. Very thick clean geometric strokes, extremely simplified, no text, no letters, no numbers, no gradients, no shadows, no realistic rendering. Flat 2D vector illustration, bold poster style. Large generous empty margin around the subject so nothing is clipped by a circular crop. Must stay instantly recognizable at 60 pixels as a social media profile avatar.\" --image-size square_hd --quality high --num-images 2 --output-format png --output-dir ./assets/avatar-fal)",
       "Bash(cp \"C:/Users/popor/AppData/Local/Temp/claude/C--Users-popor-Desktop-Claud-code-Tiktok/8a338098-4ce3-4e7a-bc0d-3fa10c463941/scratchpad/fal_compare.png\" assets/avatar-fal/_60px比較.png)",
-      "Bash(cp \"C:/Users/popor/AppData/Local/Temp/claude/C--Users-popor-Desktop-Claud-code-Tiktok/8a338098-4ce3-4e7a-bc0d-3fa10c463941/scratchpad/av_compare.png\" assets/avatar-fal/_60px比較_v2.png)"
+      "Bash(cp \"C:/Users/popor/AppData/Local/Temp/claude/C--Users-popor-Desktop-Claud-code-Tiktok/8a338098-4ce3-4e7a-bc0d-3fa10c463941/scratchpad/av_compare.png\" assets/avatar-fal/_60px比較_v2.png)",
+      "Bash(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 assets/profile/icon_720.png)"
     ]
   }
 }
