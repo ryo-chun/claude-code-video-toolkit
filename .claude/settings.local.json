@@ -21,7 +21,9 @@
       "Bash(ffmpeg -version)",
       "Bash(ffprobe -version)",
       "Bash(node video/build.js day01)",
-      "Bash(printf '\\\\n# 生成物\\\\nvideo/out/\\\\n')"
+      "Bash(printf '\\\\n# 生成物\\\\nvideo/out/\\\\n')",
+      "Bash(mkdir -p archive/ai-sidejob)",
+      "Bash(git mv *)"
     ]
   }
 }

@@ -1,65 +1,63 @@
 {
   "id": "day01",
-  "title": "ChatGPT時短術・役割付与",
+  "title": "続かない原因は工程の多さ",
   "date": "2026-08-10",
+  "note": "薬機法チェック済み：効能表現なし",
   "slides": [
     {
       "sec": "0-4",
       "bg": "black",
       "lines": [
-        { "t": "副業やりたいのに" },
-        { "t": "時間がない人" }
+        { "t": "美容に時間" },
+        { "t": "かけられない人へ" }
       ]
     },
     {
       "sec": "4-8",
       "bg": "black",
       "lines": [
-        { "t": "これ知らないと", "size": "small" },
-        { "t": "一生このまま", "size": "large", "accent": "red", "gap": 24 }
+        { "t": "全部やろうとするから", "size": "small" },
+        { "t": "続かない", "size": "large", "accent": "red", "gap": 24 }
       ]
     },
     {
       "sec": "8-12",
       "bg": "white",
       "lines": [
-        { "t": "原因は", "size": "small" },
-        { "t": "ChatGPTの", "gap": 20 },
-        { "t": "使い方", "size": "large", "accent": "#c0392b" }
+        { "t": "減らすのは", "size": "small" },
+        { "t": "毎日やる工程", "size": "large", "accent": "#c0392b", "gap": 24 }
       ]
     },
     {
       "sec": "12-17",
       "bg": "black",
       "lines": [
-        { "t": "クライアントへの提案文", "size": "small" },
-        { "t": "1時間", "size": "huge", "accent": "red", "gap": 30 },
-        { "t": "↓", "size": "normal", "accent": "dim" },
-        { "t": "15分", "size": "huge", "accent": "green" }
-      ],
-      "note": "背景に画面録画を30%で敷く"
+        { "t": "どっちが続く？", "size": "small" },
+        { "t": "毎日 5分", "size": "large", "gap": 30 },
+        { "t": "週1で 15分", "size": "large", "gap": 20 }
+      ]
     },
     {
       "sec": "17-21",
       "bg": "black",
       "lines": [
-        { "t": "やったことは", "size": "small" },
-        { "t": "ひとつだけ", "size": "large", "gap": 24 }
+        { "t": "続いたのは", "size": "small" },
+        { "t": "後者", "size": "huge", "accent": "green", "gap": 24 }
       ]
     },
     {
       "sec": "21-26",
       "bg": "white",
       "lines": [
-        { "t": "最初にこう書く", "size": "small" },
-        { "t": "あなたはプロの\nコピーライターです", "size": "normal", "box": true, "gap": 30 }
+        { "t": "コツはこれだけ", "size": "small" },
+        { "t": "頻度を下げて\n1回を厚くする", "size": "normal", "box": true, "gap": 30 }
       ]
     },
     {
       "sec": "26-30",
       "bg": "black",
       "lines": [
-        { "t": "他のAI術は", "size": "small" },
+        { "t": "他の時短法は", "size": "small" },
         { "t": "プロフィールに", "size": "large", "gap": 24 },
         { "t": "↓", "size": "large", "accent": "yellow", "gap": 10 }
       ]
